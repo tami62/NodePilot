@@ -5491,7 +5491,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330 ohm"
+		(property "Value" "220 ohm"
 			(at 123.19 113.0299 0)
 			(effects
 				(font
