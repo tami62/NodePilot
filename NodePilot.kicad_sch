@@ -7,7 +7,7 @@
 	(title_block
 		(title "NodePilot By S21TIP")
 		(date "2025-12-18")
-		(rev "4.1")
+		(rev "4.2")
 	)
 	(lib_symbols
 		(symbol "Device:C_Polarized"
@@ -1401,156 +1401,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Diode:1N5817"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "1N5817"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-				(at 0 -4.445 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.vishay.com/docs/88525/1n5817.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "20V 1A Schottky Barrier Rectifier Diode, DO-41"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode Schottky"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "D*DO?41*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "1N5817_0_1"
-				(polyline
-					(pts
-						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "1N5817_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Isolator:PC817"
 			(pin_names
 				(offset 1.016)
@@ -2682,16 +2532,16 @@
 		(uuid "4810984f-2285-45c2-9937-c60b89f63ad2")
 	)
 	(junction
+		(at 137.16 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4e0f169e-9b7e-451e-8e1b-c508e16bedf1")
+	)
+	(junction
 		(at 148.59 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "53f3f15f-0708-4d72-abae-fe76f81f9f32")
-	)
-	(junction
-		(at 137.16 142.24)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "56c36b5e-0de5-4423-baee-4035eaa37bd8")
 	)
 	(junction
 		(at 170.18 49.53)
@@ -2722,6 +2572,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "72306479-2276-4039-b7a0-b6d0c4335780")
+	)
+	(junction
+		(at 137.16 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "75f1fdc2-b49f-467a-9369-223058e6a4c0")
 	)
 	(junction
 		(at 161.29 114.3)
@@ -2782,12 +2638,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cced540d-ad32-4a94-a978-82f5dbab4e8b")
-	)
-	(junction
-		(at 137.16 125.73)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f39595f1-7d39-4dcb-81c1-48792e5e8585")
 	)
 	(junction
 		(at 137.16 102.87)
@@ -2887,6 +2737,16 @@
 	)
 	(wire
 		(pts
+			(xy 191.77 124.46) (xy 213.36 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1bd285e7-24cc-4be9-8a92-ff153b20e507")
+	)
+	(wire
+		(pts
 			(xy 128.27 142.24) (xy 137.16 142.24)
 		)
 		(stroke
@@ -2937,6 +2797,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 130.81) (xy 137.16 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24c106a5-efcf-4fe5-aa3d-1dcc121e063d")
+	)
+	(wire
+		(pts
 			(xy 35.56 152.4) (xy 44.45 152.4)
 		)
 		(stroke
@@ -2974,16 +2844,6 @@
 			(type default)
 		)
 		(uuid "365d68c7-bd31-4a64-9c92-a9e58506d41d")
-	)
-	(wire
-		(pts
-			(xy 68.58 106.68) (xy 68.58 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "37b19a87-5874-490a-a04a-f73373b90032")
 	)
 	(wire
 		(pts
@@ -3034,6 +2894,16 @@
 			(type default)
 		)
 		(uuid "4498de8b-d0b4-4fb9-a813-ed633dae64d6")
+	)
+	(wire
+		(pts
+			(xy 137.16 142.24) (xy 153.67 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a053e02-e205-4553-a5b9-5f0e822e6116")
 	)
 	(wire
 		(pts
@@ -3167,7 +3037,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 125.73) (xy 153.67 125.73)
+			(xy 128.27 125.73) (xy 137.16 125.73)
 		)
 		(stroke
 			(width 0)
@@ -3184,6 +3054,16 @@
 			(type default)
 		)
 		(uuid "68c408d1-3c1c-4645-9c63-8885fa44de4a")
+	)
+	(wire
+		(pts
+			(xy 184.15 124.46) (xy 166.37 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "691a80a2-4824-413d-b0f1-f30bcfc2574a")
 	)
 	(wire
 		(pts
@@ -3204,6 +3084,16 @@
 			(type default)
 		)
 		(uuid "6b9282f7-77d6-48c4-9593-7c206c8ea4d9")
+	)
+	(wire
+		(pts
+			(xy 137.16 138.43) (xy 137.16 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70f18f0a-c146-4eb5-93fa-84ea81667ddb")
 	)
 	(wire
 		(pts
@@ -3244,6 +3134,16 @@
 			(type default)
 		)
 		(uuid "7456116d-b1a4-4ea8-89a1-97412f296f79")
+	)
+	(wire
+		(pts
+			(xy 137.16 125.73) (xy 153.67 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7aa8b002-5a9d-4fcd-ae6f-b22fd1e00903")
 	)
 	(wire
 		(pts
@@ -3304,6 +3204,16 @@
 			(type default)
 		)
 		(uuid "8a38d8b8-b6bf-407a-99c9-e3d22265a32b")
+	)
+	(wire
+		(pts
+			(xy 166.37 124.46) (xy 166.37 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d109bc6-c3cd-4158-98f2-c384ade74e18")
 	)
 	(wire
 		(pts
@@ -3454,26 +3364,6 @@
 			(type default)
 		)
 		(uuid "b228dddb-402b-4aa2-8ac6-c325255247c3")
-	)
-	(wire
-		(pts
-			(xy 128.27 125.73) (xy 137.16 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b2fe3146-4489-49b0-af2a-fc9b88fc8e4d")
-	)
-	(wire
-		(pts
-			(xy 166.37 119.38) (xy 205.74 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b30d8eff-bcc1-4fd0-b951-517c1e10f617")
 	)
 	(wire
 		(pts
@@ -3647,16 +3537,6 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 138.43) (xy 137.16 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d8e06b89-4334-4b58-ba6d-d21ac7b5e249")
-	)
-	(wire
-		(pts
 			(xy 199.39 77.47) (xy 199.39 102.87)
 		)
 		(stroke
@@ -3677,16 +3557,6 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 142.24) (xy 153.67 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "db39535a-c2db-4cd9-9eab-15652bb12149")
-	)
-	(wire
-		(pts
 			(xy 96.52 102.87) (xy 87.63 102.87)
 		)
 		(stroke
@@ -3694,16 +3564,6 @@
 			(type default)
 		)
 		(uuid "e1d081f8-f0fa-4162-93ad-7da38ae9f48c")
-	)
-	(wire
-		(pts
-			(xy 137.16 125.73) (xy 137.16 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e40ae4d2-139c-4084-8af0-92a658f98f82")
 	)
 	(wire
 		(pts
@@ -3797,16 +3657,6 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 125.73) (xy 166.37 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f88b3f9d-1658-4f6d-89e7-37a1e488b53d")
-	)
-	(wire
-		(pts
 			(xy 162.56 69.85) (xy 152.4 69.85)
 		)
 		(stroke
@@ -3817,7 +3667,7 @@
 	)
 	(global_label "PTT"
 		(shape output)
-		(at 205.74 119.38 0)
+		(at 213.36 124.46 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3827,7 +3677,7 @@
 		)
 		(uuid "00b4a3f5-bb54-417c-8f47-26186208c1ba")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 211.9304 119.38 0)
+			(at 219.5504 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4054,7 +3904,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k ohm"
+		(property "Value" "330 ohm"
 			(at 71.12 104.1399 0)
 			(effects
 				(font
@@ -4123,7 +3973,7 @@
 				)
 			)
 		)
-		(property "Value" "10k ohm"
+		(property "Value" "2.2k ohm"
 			(at 105.41 93.98 90)
 			(effects
 				(font
@@ -4534,6 +4384,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND1")
+		(at 68.58 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3e6fac8a-c6f1-44e7-a8bb-03ed6b4b56ee")
+		(property "Reference" "#PWR03"
+			(at 68.58 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "AGND1"
+			(at 71.12 107.9499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 68.58 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
+			(at 68.58 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e5a93c94-484a-4842-972f-c08d16031f3d")
+		)
+		(instances
+			(project "NodePilot"
+				(path "/feb6dcc4-ba57-4640-ad64-1efd302ce012"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Potentiometer_US")
 		(at 170.18 44.45 0)
 		(mirror x)
@@ -4601,6 +4518,94 @@
 			(project ""
 				(path "/feb6dcc4-ba57-4640-ad64-1efd302ce012"
 					(reference "RV1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 137.16 134.62 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "463699c8-a2c4-49bc-8a5e-5246a57f02a9")
+		(property "Reference" "D3"
+			(at 139.7 133.3499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 139.7 135.8899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 137.16 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 137.16 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 137.16 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 137.16 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 137.16 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "034b1d68-3de2-4499-8cae-90e5de81b9d8")
+		)
+		(pin "2"
+			(uuid "4473f9b2-5b7b-434e-98fc-117511f03d38")
+		)
+		(instances
+			(project ""
+				(path "/feb6dcc4-ba57-4640-ad64-1efd302ce012"
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -4766,7 +4771,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330 ohm"
+		(property "Value" "220 ohm"
 			(at 99.06 113.0299 0)
 			(effects
 				(font
@@ -4880,6 +4885,74 @@
 			(project "NodePilot"
 				(path "/feb6dcc4-ba57-4640-ad64-1efd302ce012"
 					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 187.96 124.46 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "77ba670c-f20b-45c3-bae4-cdeaa5bdad15")
+		(property "Reference" "R5"
+			(at 187.96 118.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2.2k ohm"
+			(at 187.96 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 188.214 123.444 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 187.96 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 187.96 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "55a84dfc-18df-4f95-8e8c-32dc54ccee25")
+		)
+		(pin "1"
+			(uuid "87f5acc3-4147-4280-b99e-c3224d009dc8")
+		)
+		(instances
+			(project ""
+				(path "/feb6dcc4-ba57-4640-ad64-1efd302ce012"
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -6011,76 +6084,6 @@
 			(project "NodePilot"
 				(path "/feb6dcc4-ba57-4640-ad64-1efd302ce012"
 					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N5817")
-		(at 137.16 134.62 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f39180ff-a6dd-462a-9219-99243cf951c9")
-		(property "Reference" "D3"
-			(at 139.7 133.0324 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1N5817"
-			(at 139.7 135.5724 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 132.715 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/88525/1n5817.pdf"
-			(at 137.16 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "20V 1A Schottky Barrier Rectifier Diode, DO-41"
-			(at 137.16 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "93d9275c-07a8-4f2b-8080-e543d0aad157")
-		)
-		(pin "1"
-			(uuid "a143704d-0d59-4882-b47d-7522dce4c079")
-		)
-		(instances
-			(project ""
-				(path "/feb6dcc4-ba57-4640-ad64-1efd302ce012"
-					(reference "D3")
 					(unit 1)
 				)
 			)
